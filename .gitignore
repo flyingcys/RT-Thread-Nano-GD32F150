@@ -1,11 +1,7 @@
-*.o
-*.d
-*.crf
-*.axf
-*.bin
-*.lnp
-*.htm
-*.txt
-*.map
-*.lst
+Objects/
+Listings/
 
+*.txt
+*.ini
+*.uvoptx
+*..uvguix.cys

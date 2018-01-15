@@ -1,622 +1,0 @@
-Dependencies for Project 'rtthread-nano', Target 'Target 1': (DO NOT MODIFY !)
-F (..\Firmware\CMSIS\system_gd32f1x0.c)(0x56CBEB2C)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\system_gd32f1x0.o --omf_browse .\objects\system_gd32f1x0.crf --depend .\objects\system_gd32f1x0.d)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-F (..\Firmware\CMSIS\ARM\startup_gd32f1x0.s)(0x59B8AB16)(--cpu Cortex-M3 -g --apcs=interwork -I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 516" --pd "_RTE_ SETA 1" --pd "GD32F1x0 SETA 1" --pd "GD32F130_150 SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1"--list .\listings\startup_gd32f1x0.lst --xref -o .\objects\startup_gd32f1x0.o --depend .\objects\startup_gd32f1x0.d)
-F (..\Firmware\Peripherals\src\gd32f1x0_misc.c)(0x56CBEB2E)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\gd32f1x0_misc.o --omf_browse .\objects\gd32f1x0_misc.crf --depend .\objects\gd32f1x0_misc.d)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-F (..\Firmware\Peripherals\src\gd32f1x0_rcc.c)(0x56CBEB2E)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\gd32f1x0_rcc.o --omf_browse .\objects\gd32f1x0_rcc.crf --depend .\objects\gd32f1x0_rcc.d)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-F (..\Firmware\Peripherals\src\gd32f1x0_usart.c)(0x56CBEB2E)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\gd32f1x0_usart.o --omf_browse .\objects\gd32f1x0_usart.crf --depend .\objects\gd32f1x0_usart.d)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-F (..\Firmware\Peripherals\src\gd32f1x0_syscfg.c)(0x56CBEB2E)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\gd32f1x0_syscfg.o --omf_browse .\objects\gd32f1x0_syscfg.crf --depend .\objects\gd32f1x0_syscfg.d)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-F (..\Firmware\Peripherals\src\gd32f1x0_timer.c)(0x56CBEB2E)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\gd32f1x0_timer.o --omf_browse .\objects\gd32f1x0_timer.crf --depend .\objects\gd32f1x0_timer.d)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-F (..\Firmware\Peripherals\src\gd32f1x0_gpio.c)(0x56CBEB2E)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\gd32f1x0_gpio.o --omf_browse .\objects\gd32f1x0_gpio.crf --depend .\objects\gd32f1x0_gpio.d)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-F (..\Firmware\Peripherals\src\gd32f1x0_exti.c)(0x56CBEB2E)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\gd32f1x0_exti.o --omf_browse .\objects\gd32f1x0_exti.crf --depend .\objects\gd32f1x0_exti.d)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-F (..\User\gd32f1x0_it.c)(0x59B8AE92)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\gd32f1x0_it.o --omf_browse .\objects\gd32f1x0_it.crf --depend .\objects\gd32f1x0_it.d)
-I (..\User\gd32f1x0_it.h)(0x59B8A8A0)
-F (..\User\main.c)(0x5A5305F0)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\finsh.h)(0x58C1766C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
-F (..\User\uart.c)(0x5A52DAE3)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include\rtdevice.h)(0x592F7AF8)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\libcpu\arm\cortex-m3\context_rvds.S)(0x58C17676)(--cpu Cortex-M3 -g --apcs=interwork -I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 516" --pd "_RTE_ SETA 1" --pd "GD32F1x0 SETA 1" --pd "GD32F130_150 SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1"--list .\listings\context_rvds.lst --xref -o .\objects\context_rvds.o --depend .\objects\context_rvds.d)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\libcpu\arm\cortex-m3\cpuport.c)(0x58C17676)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\cpuport.o --omf_browse .\objects\cpuport.crf --depend .\objects\cpuport.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\clock.c)(0x58C17678)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\clock.o --omf_browse .\objects\clock.crf --depend .\objects\clock.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\components.c)(0x59794900)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\components.o --omf_browse .\objects\components.crf --depend .\objects\components.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\device.c)(0x58C17678)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\device.o --omf_browse .\objects\device.crf --depend .\objects\device.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\idle.c)(0x59575910)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\idle.o --omf_browse .\objects\idle.crf --depend .\objects\idle.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\ipc.c)(0x58C17678)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\ipc.o --omf_browse .\objects\ipc.crf --depend .\objects\ipc.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\irq.c)(0x58C17678)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\irq.o --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\kservice.c)(0x5974CDD8)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\kservice.o --omf_browse .\objects\kservice.crf --depend .\objects\kservice.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\mem.c)(0x58C17678)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\mem.o --omf_browse .\objects\mem.crf --depend .\objects\mem.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\object.c)(0x58C17678)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\object.o --omf_browse .\objects\object.crf --depend .\objects\object.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\scheduler.c)(0x597C2E12)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\scheduler.o --omf_browse .\objects\scheduler.crf --depend .\objects\scheduler.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\thread.c)(0x59575910)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\thread.o --omf_browse .\objects\thread.crf --depend .\objects\thread.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\src\timer.c)(0x58C17678)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-F (RTE\RTOS\board.c)(0x59B8AE7A)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (..\Firmware\CMSIS\gd32f1x0.h)(0x56CBEB2C)
-I (..\Firmware\CMSIS\core_cm3.h)(0x56CBEB2C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (..\Firmware\CMSIS\system_gd32f1x0.h)(0x56CBEB2C)
-I (..\User\gd32f1x0_conf.h)(0x56CBEB42)
-I (..\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_mcudbg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_iwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_pwr.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rcc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_wwdg.h)(0x56CBEB2E)
-I (..\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x56CBEB2E)
-F (RTE\RTOS\rtconfig.h)(0x5A4A51BF)()
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\src\completion.c)(0x58C1765A)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\completion.o --omf_browse .\objects\completion.crf --depend .\objects\completion.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include\rtdevice.h)(0x592F7AF8)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\src\pipe.c)(0x58C1765A)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\pipe.o --omf_browse .\objects\pipe.crf --depend .\objects\pipe.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include\rtdevice.h)(0x592F7AF8)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\src\portal.c)(0x58C1765A)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\portal.o --omf_browse .\objects\portal.crf --depend .\objects\portal.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include\rtdevice.h)(0x592F7AF8)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\src\ringbuffer.c)(0x58C1765A)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\ringbuffer.o --omf_browse .\objects\ringbuffer.crf --depend .\objects\ringbuffer.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include\rtdevice.h)(0x592F7AF8)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\src\workqueue.c)(0x58C1765A)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\workqueue.o --omf_browse .\objects\workqueue.crf --depend .\objects\workqueue.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include\rtdevice.h)(0x592F7AF8)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\cmd.c)(0x58C1766C)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\cmd.o --omf_browse .\objects\cmd.crf --depend .\objects\cmd.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\finsh.h)(0x58C1766C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\msh.c)(0x59609D36)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\msh.o --omf_browse .\objects\msh.crf --depend .\objects\msh.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\msh.h)(0x58C1766C)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\finsh.h)(0x58C1766C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\shell.h)(0x58C1766C)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\msh_cmd.c)(0x59575910)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\msh_cmd.o --omf_browse .\objects\msh_cmd.crf --depend .\objects\msh_cmd.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\finsh.h)(0x58C1766C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\msh.h)(0x58C1766C)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\msh_file.c)(0x58C1766C)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\msh_file.o --omf_browse .\objects\msh_file.crf --depend .\objects\msh_file.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\finsh.h)(0x58C1766C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\msh.h)(0x58C1766C)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\shell.c)(0x58C1766C)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\shell.o --omf_browse .\objects\shell.crf --depend .\objects\shell.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rthw.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\finsh.h)(0x58C1766C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\shell.h)(0x58C1766C)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\msh.h)(0x58C1766C)
-F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\symbol.c)(0x58C1766C)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I..\User -I..\Firmware\CMSIS -I..\Firmware\Peripherals\inc -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE-I C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\drivers\include-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh-I C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DGD32F1x0 -DGD32F130_150-o .\objects\symbol.o --omf_browse .\objects\symbol.crf --depend .\objects\symbol.d)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\components\finsh\finsh.h)(0x58C1766C)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtthread.h)(0x59575910)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTOS\rtconfig.h)(0x5A4A51BF)
-I (C:\workspace\gd32_rtthread\rtthread-nano\Project\RTE\RTE_Components.h)(0x5A5305C8)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdebug.h)(0x58C17676)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtdef.h)(0x59575910)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtservice.h)(0x590A9138)
-I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\2.1.1\include\rtm.h)(0x58C17676)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
